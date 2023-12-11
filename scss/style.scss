@@ -1,3 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import "_header.scss";
-@import "_body.scss";
+@import "components/header";
+@import "components/body";
+@import "layouts/button";
+@import "utilities/_mixin.scss";

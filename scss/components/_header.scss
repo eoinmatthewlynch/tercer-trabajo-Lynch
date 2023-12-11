@@ -13,13 +13,16 @@ header{background-color:#FFFFFF ;}
  */
 #logo-header {
 	float: left;
-	padding: 15px 0 0 20px;
+	padding: 10px 0 0 10px;
 	text-decoration: none;
 }
 	#logo-header:hover {
 		color: orange;
+        
 	}
 	
+
+
 	#logo-header .site-name {
 		display: block;
 		font-weight: 700;
@@ -60,4 +63,6 @@ nav {
 			
 				nav ul li a:hover {
 					background: orange;
+                    transition: 1s;
 				}
+                

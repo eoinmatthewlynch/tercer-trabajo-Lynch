@@ -20,7 +20,7 @@ header {
  */
 #logo-header {
   float: left;
-  padding: 15px 0 0 20px;
+  padding: 10px 0 0 10px;
   text-decoration: none;
 }
 
@@ -68,6 +68,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background: orange;
+  transition: 1s;
 }
 
 col {
@@ -124,6 +125,29 @@ section div {
 
 carouselExample {
   width: 100px;
+}
+
+carouselExample {
+  align-items: center;
+}
+
+button {
+  background-color: orange;
+  background: rgb(232, 207, 7);
+  display: flex;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  padding: 15px;
+  transition: 1s;
+}
+button:hover {
+  transform: rotate(360deg);
+  translate: -38px;
+}
+
+body h2 {
+  color: darkorange;
 }
 
 /*# sourceMappingURL=style.css.map */
